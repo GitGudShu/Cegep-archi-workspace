@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="fenetre" maxWidth="1350.0" minWidth="1350.0" prefHeight="743.0" prefWidth="1350.0" stylesheets="@decoration/murmure.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="espace" layoutX="-4.0" prefHeight="743.0" prefWidth="1356.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-4.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane id="chat" layoutX="36.0" layoutY="30.0" prefHeight="679.0" prefWidth="1282.0" />
+         </children>
+      </AnchorPane>
+      <Pane id="banderolle" layoutX="-3.0" prefHeight="127.0" prefWidth="1294.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
